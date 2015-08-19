@@ -4,7 +4,7 @@
 
 **Dica 1:** O projeto usa o [flex-grid-framework](https://github.com/afonsopacifer/flex-grid-framework) como sistema de grid. De uma olhada na [documentação](https://afonsopacifer.github.io/flex-grid-framework/) para saber mais.
 
-:construction: **Dica 3:** Use os [snippets](snippets.md) para agilizar o desenvolvimento.
+**Dica 3:** Use os [snippets](https://gist.github.com/buscacarioca) para agilizar o desenvolvimento.
 
 :construction: **Dica 3:** Para manter a organização, [siga o guia de estilos de código](code-guide.md).
 
