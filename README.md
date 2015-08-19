@@ -4,9 +4,9 @@
 
 **Dica 1:** O projeto usa o [flex-grid-framework](https://github.com/afonsopacifer/flex-grid-framework) como sistema de grid. De uma olhada na [documentação](https://afonsopacifer.github.io/flex-grid-framework/) para saber mais.
 
-**Dica 3:** Use os [snippets](snippets.md) para agilizar o desenvolvimento.
+:construction: **Dica 3:** Use os [snippets](snippets.md) para agilizar o desenvolvimento.
 
-**Dica 3:** Para manter a organização, [siga o guia de estilos de código](code-guide.md).
+:construction: **Dica 3:** Para manter a organização, [siga o guia de estilos de código](code-guide.md).
 
 ### Como usar?
 
@@ -48,17 +48,17 @@ $ git commit -m "descrição do commit"
 $ git push origin master
 ```
 
-### Lista de tarefas do Grunt
+### :construction: Lista de tarefas do Grunt
 
 - ?????
 
-### Como fazer o deploy?
+### :construction: Como fazer o deploy?
 
 ```
 $ ?????
 ```
 
-### Estrutura das pastas
+### :construction: Estrutura das pastas
 
 <pre>
 </pre>
