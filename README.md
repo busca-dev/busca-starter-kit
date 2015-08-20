@@ -2,6 +2,8 @@
 
 > Encontre no  [Roadmap](https://github.com/busca-dev/busca-starter-kit/issues/1) os próximos passos do nosso projeto e ajude a contruí-los :)
 
+> Para manter a organização das versões, seguimos o [Versionamento Semântico](http://semver.org/lang/pt-BR/).
+
 **Dica 1:** O projeto usa o [flex-grid-framework](https://github.com/afonsopacifer/flex-grid-framework) como sistema de grid. De uma olhada na [documentação](https://afonsopacifer.github.io/flex-grid-framework/) para saber mais.
 
 **Dica 3:** Use os [snippets](https://gist.github.com/buscacarioca) para agilizar o desenvolvimento.
@@ -46,6 +48,11 @@ $ git commit -m "descrição do commit"
 
 ```
 $ git push origin master
+```
+**Atualizando seu repositório local com o Bitbucket:**
+
+```
+$ git pull
 ```
 
 ### :construction: Lista de tarefas do Grunt
