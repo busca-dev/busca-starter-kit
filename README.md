@@ -69,3 +69,7 @@ $ ?????
 
 <pre>
 </pre>
+
+## Licence
+
+[MIT Licence]((https://github.com/busca-dev/busca-starter-kit/blob/master/LICENCE.md) © Busca Carioca Developers
