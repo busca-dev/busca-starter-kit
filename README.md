@@ -1,75 +1,73 @@
 # Busca Starter Kit
+> Para mantermos as versões padronizadas, seguimos o [Versionamento Semântico](http://semver.org/lang/pt-BR/).
 
-> Encontre no  [Roadmap](https://github.com/busca-dev/busca-starter-kit/issues/1) os próximos passos do nosso projeto e ajude a contruí-los :)
+## Índice
 
-> Para manter a organização das versões, seguimos o [Versionamento Semântico](http://semver.org/lang/pt-BR/).
+- [Como usar?](#como-usar?)
+  - [Baixe o projeto e instale as dependências](#baixe-o-projeto-e-instale-as-dependências)
+  - [Conheça melhor nossa Stack](#conheça-melhor-nossa-Stack)
+  - [Lista de tarefas do Grunt](#lista-de-tarefas-do-grunt)
+- [Como Contribuir?](#como-contribuir?)
+  - [Padrão de código](#padrão-de-código)
+  - [Recomendações](#recomendações)
+- [Estrutura das pastas](#estrutura-das-pastas)
+- [Licença](#licença)
 
-**Dica 1:** O projeto usa o [flex-grid-framework](https://github.com/afonsopacifer/flex-grid-framework) como sistema de grid. De uma olhada na [documentação](https://afonsopacifer.github.io/flex-grid-framework/) para saber mais.
+## Como usar?
 
-**Dica 3:** Use os [snippets](https://gist.github.com/buscacarioca) para agilizar o desenvolvimento.
+### Baixe o projeto e instale as dependências:
 
-:construction: **Dica 3:** Para manter a organização, [siga o guia de estilos de código](code-guide.md).
+#### 1 - Instale o nodeJS
 
-### Como usar?
+Para instalar o nodeJS em seu sistema operacional [siga as instruções](https://nodejs.org/).
 
-**Siga os passos abaixo :)**
+#### 2 - Clone este repositório
 
-#### 1 - Clone este repositório
-
-```
+```sh
 $ git clone https://github.com/busca-dev/busca-starter-kit.git
 ```
 
-#### 2 - Vá até a pasta e instale todas as dependências
+#### 3 - Instale o `grunt-cli` e depois vá até a pasta e instale todas as dependências do projeto
+
+```sh
+$ npm install -g grunt-cli
 ```
-$ cd nome-do-projeto/
-```
-```
+
+```sh
 $ npm install
 ```
-#### 3 - Inicio o ambiente de senseolvolvimento com o Grunt
+#### 4 - Inicio o ambiente de senseolvolvimento com o `Grunt`
 
-**Inicia um servidor estático na porta 9000, escuta e compila todos os arquivos .jade/.styl, otimiza todas as imagens images da pasta img, ativa o livereload e concatena e minifica todos os arquivos .js**
-
-```
+```sh
 $ grunt dev
 ```
+*Inicia um servidor estático na porta 9000, escuta e compila todos os arquivos .jade/.styl, otimiza todas as imagens images da pasta img, ativa o livereload e concatena e minifica todos os arquivos*
 
-#### 4 - Mantenha o projeto versionamento corretamente
+### Conheça melhor nossa Stack
 
-**Fazendo o commit local:**
+- Como template engine para HTML utilizamos [jade](http://jade-lang.com/).
+- Para o pre-processamento de CSS escolhemos o [stylus](https://learnboost.github.io/stylus/).
+- Utilizamos o [flex-grid-framework](https://afonsopacifer.github.io/flex-grid-framework/) como sistema de grid.
+- A automatização das tarefas fica a cargo do [grunt](http://gruntjs.com/).
 
-```
-$ git add .
-$ git commit -m "descrição do commit"
-```
+### Lista de tarefas do Grunt
+- :construction:
+- :construction:
+- :construction:
 
-**Enviando os commits ao repositório no Bitbucket:**
+## Como Contribuir?
+> Encontre no  [Roadmap](https://github.com/busca-dev/busca-starter-kit/issues/1) os próximos passos do nosso projeto e ajude a contruí-los :)
 
-```
-$ git push origin master
-```
-**Atualizando seu repositório local com o Bitbucket:**
+### Padrão de código
+:construction: Para manter a organização, [siga o guia de estilos de código](code-guide.md).
 
-```
-$ git pull
-```
+### Recomendações
+:construction:
 
-### :construction: Lista de tarefas do Grunt
+## Estrutura das pastas
 
-- ?????
+:construction:
 
-### :construction: Como fazer o deploy?
+## Licença
 
-```
-$ ?????
-```
-
-### :construction: Estrutura das pastas
-
-<pre>
-</pre>
-
-## Licence
-
-[MIT Licence]((https://github.com/busca-dev/busca-starter-kit/blob/master/LICENCE.md) © Busca Carioca Developers
+[MIT Licence](https://github.com/busca-dev/busca-starter-kit/blob/master/LICENCE.md) © Busca Carioca Developers
