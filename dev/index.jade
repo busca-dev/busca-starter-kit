@@ -13,15 +13,25 @@ html(lang="pt-br")
 		title Busca Starter Kit
 
 	body
-		include ./includes/topo.jade 
+		// header
+		// -----------------------------------------
+		include ./includes/header.jade
+
+		// banner
+		// -----------------------------------------
+		include ./includes/banner.jade
+
 		// content
 		// -----------------------------------------
-		div conteudo
-					
+		main.row
+			div.content
+				h1 Título
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum feugiat sodales. Fusce dapibus ultrices lorem, sit amet ultricies lorem molestie eget. Vivamus aliquam velit vitae augue facilisis, vitae malesuada mauris aliquet. Nulla facilisi. Aenean ex augue, posuere sed fermentum et, fringilla in libero. Mauris id nunc sagittis, accumsan turpis id, volutpat leo. Morbi in ipsum nec nulla bibendum dapibus at nec.
+
 		// footer
 		// -----------------------------------------
 		include ./includes/footer.jade
-			
+
 		// bottom requests
 		// -----------------------------------------
 		include ./includes/bottom-requests.jade

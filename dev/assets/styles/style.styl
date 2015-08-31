@@ -4,8 +4,16 @@
 // -----------------------------------------
 @import "base/normalize"
 @import "base/flex-grid-framework"
+
+// configs
+// -----------------------------------------
+cor-principal = #ef5734
+slider-controler = #ef5734
+
 // layout
 // -----------------------------------------
+@import "layout/header"
+@import "layout/banner"
 @import "layout/footer"
 @import "layout/form"
 
@@ -16,46 +24,18 @@ body
 
 .row
 	row()
-a
-	text-decoration none
+
 div, section, article, footer, nav, header, main
-	border 1px dashed #0d0b8c
+	border 1px dashed #4ecb29
 
-	// global
-	// -----------------------------------------
-ul.menu
-	list-style none
-
-.menu li
-	display inline-block
-	margin-left 1em
-
-.banner
-	row()
-.flexslider
-	col(12)
-
-.logo-busca-container
-	col(6)
-	vertical-align(middle)
-	justify(right)
-	display flex
-
-.direitos-container
-	col(6)
-	vertical-align(middle)
-	display flex
-
-.rodape
-	background rgb(179, 179, 179)
+// index
+// -----------------------------------------
+.content
+	col(10)
+	offset(1)
+	text-align center
+	padding 60px 0
 
 @media screen and (max-width 635px)
-	.logo-busca-container
+	.content
 		col(12)
-		justify(center)
-		padding 7px
-
-	.direitos-container
-		col(12)
-		justify(center)
-		padding 7px
