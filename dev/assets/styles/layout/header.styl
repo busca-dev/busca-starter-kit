@@ -7,6 +7,11 @@
 	vertical-align(middle)
 	justify(center)
 
+.logo-container img
+	max-width 100%
+	display block
+	height auto
+
 //menu
 .menu
 	col(9)
@@ -31,3 +36,24 @@
 
 .menu ul li a:hover
 	background-color cor-principal
+	color #fff
+
+
+@media screen and (max-width 480px)
+	.logo-container
+		col(12)
+	.menu
+		col(12)
+		padding 0
+		margin 0
+	.menu ul
+		margin 0 auto
+		display block
+		col(12)
+
+	.menu li
+		text-align center
+		col(12)
+		margin-top 5px
+	.menu ul li a
+		col(12)
