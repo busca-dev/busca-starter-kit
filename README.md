@@ -36,12 +36,12 @@ $ npm install -g grunt-cli
 ```sh
 $ npm install
 ```
-#### 4 - Inicio o ambiente de senseolvolvimento com o `Grunt`
+#### 4 - Inicio o ambiente de desenvolvimento com o `Grunt`
 
 ```sh
 $ grunt dev
 ```
-*Inicia um servidor estático na porta 9000, escuta e compila todos os arquivos .jade/.styl, otimiza todas as imagens images da pasta img, ativa o livereload e concatena e minifica todos os arquivos*
+*Inicia um servidor estático na porta 9000, escuta e compila todos os arquivos .jade/.styl, otimiza todas as imagens images da pasta img, ativa o livereload, concatena e minifica todos os arquivos*
 
 ### Conheça melhor nossa Stack
 
