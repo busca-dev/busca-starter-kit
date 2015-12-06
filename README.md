@@ -8,9 +8,6 @@
   - [Conheça melhor nossa Stack](#conheça-melhor-nossa-Stack)
   - [Lista de tarefas do Grunt](#lista-de-tarefas-do-grunt)
 - [Como Contribuir?](#como-contribuir?)
-  - [Padrão de código](#padrão-de-código)
-  - [Recomendações](#recomendações)
-- [Estrutura das pastas](#estrutura-das-pastas)
 - [Licença](#licença)
 
 ## Como usar?
@@ -50,23 +47,8 @@ $ grunt dev
 - Utilizamos o [flex-grid-framework](https://afonsopacifer.github.io/flex-grid-framework/) como sistema de grid.
 - A automatização das tarefas fica a cargo do [grunt](http://gruntjs.com/).
 
-### Lista de tarefas do Grunt
-- :construction:
-- :construction:
-- :construction:
-
 ## Como Contribuir?
 > Encontre no  [Roadmap](https://github.com/busca-dev/busca-starter-kit/issues/1) os próximos passos do nosso projeto e ajude a contruí-los :)
-
-### Padrão de código
-:construction: Para manter a organização, [siga o guia de estilos de código](code-guide.md).
-
-### Recomendações
-:construction:
-
-## Estrutura das pastas
-
-:construction:
 
 ## Licença
 
