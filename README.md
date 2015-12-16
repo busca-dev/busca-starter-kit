@@ -43,6 +43,8 @@ $ grunt dev
 ## Lista de tarefas
 
 - `$ grunt dev`: Inicia o ambiente de desenvolvimento.
+- `$ grunt ap`: Disponibiliza as páginas criadas para aprovação.
+- `$ grunt deploy`: Faz Deploy para o servidor do cliente.
 
 ## Conheça melhor nossa Stack
 
