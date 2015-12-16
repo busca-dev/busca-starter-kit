@@ -1,21 +1,24 @@
-# Contributing
+# Guia de contribuição
 
-## Submit a Pull Request
+## Dicas para enviar um Pull Request saudável
 
-*1 - Fork it!*
+**1** *- Fork!*
 
-*2 - Clone*
+**2** *- Clone*
 
-*3 - Create your feature branch:*
+**3** *- Crie uma branch para sua alteração:*
 ```sh
-$ git checkout -b my-new-feature
+$ git checkout -b my-branch
 ```
-*4 - Commit your changes:*
+**4** *- Commit suas mudanças:*
 ```sh
-$ git commit -a -m 'Add some feature'
+$ git add .
+$ git commit -a -m 'Nova funcionalidade ou correção de bug'
 ```
-*5 - Push to the branch:*
+**5** *- De um Push na branch criada:*
 ```sh
-$ git push origin my-new-feature
+$ git push origin my-branch
 ```
-*6 - Submit a pull request :)*
+**6** *- Envie o pull request :)*
+
+**OBS:** Depois do Pull Request aceito, não esqueça de apagar a branch criada ;)
