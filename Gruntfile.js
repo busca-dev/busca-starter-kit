@@ -86,8 +86,27 @@ module.exports = function( grunt ) {
           open: true
         }
       }
-
-    }
+    },
+    'ftp-deploy': {
+      ap: {
+        auth: {
+          host: 'ftp.buscacariocaweb.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'prod/',
+        dest: 'public_html/buscacarioca/ap/project_folder'
+      },
+      build: {
+        auth: {
+          host: 'ftp.buscacariocaweb.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'prod/',
+        dest: 'public_html/project_folder'
+      }
+    },
 
   });
 
@@ -97,7 +116,9 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-ftp-deploy');
 
-  grunt.registerTask( 'dev', ['connect','watch']);
-
+  grunt.registerTask('dev', ['connect','watch']);
+  grunt.registerTask('ap', ['ftp-deploy:ap']);
+  grunt.registerTask('deploy', ['ftp-deploy:build']);
 };
