@@ -4,8 +4,8 @@
 ## Índice
 
 - [Como usar?](#como-usar?)
-- [Conheça melhor nossa Stack](conheca-melhor nossa-stack)
-- [Lista de tarefas automatizadas](lista de-tarefas-automatizadas)
+- [Conheça melhor nossa Stack](#conheca-melhor nossa-stack)
+- [Lista de tarefas automatizadas](#lista de-tarefas-automatizadas)
 - [Como Contribuir?](#como-contribuir?)
 - [Licença](#licença)
 
