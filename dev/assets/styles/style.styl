@@ -24,7 +24,7 @@ body
 	background url('../img/bg.jpg') repeat center top
 
 .row
-	row()
+	@extend $row
 
 div, section, article, footer, nav, header, main
 	border 1px dashed #4ecb29
@@ -32,11 +32,11 @@ div, section, article, footer, nav, header, main
 // index
 // -----------------------------------------
 .content
-	col(10)
-	offset(1)
+	@extend $col-10
+	@extend $offset-1
 	text-align center
 	padding 60px 0
 
 @media screen and (max-width 635px)
 	.content
-		col(12)
+		@extend $col-12
