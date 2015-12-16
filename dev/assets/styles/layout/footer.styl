@@ -5,27 +5,27 @@
 
 // direitos
 .direitos-container
-	col(9)
-	vertical-align(middle)
+	@extend $col-9
+	@extend $vertical-align-middle
 	display flex
 	text-align center
 	color #fff
 
 @media screen and (max-width 635px)
 	.direitos-container
-		col(12)
-		justify(center)
+		mq-col(9)
+		mq-justify(center)
 		padding 7px
 
 // buscacarioca
 .logo-busca-container
-	col(3)
-	vertical-align(middle)
-	justify(right)
+	@extend $col-3
+	@extend $vertical-align-middle
+	@extend $justify-right
 	display flex
 
 @media screen and (max-width 635px)
 	.logo-busca-container
-		col(12)
-		justify(center)
+		mq-col(12)
+		mq-justify(center)
 		padding 7px

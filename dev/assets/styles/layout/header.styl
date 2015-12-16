@@ -2,10 +2,10 @@
 // -----------------------------------------
 //logo
 .logo-container
-	col(3)
+	@extend $col-3
 	display flex
-	vertical-align(middle)
-	justify(center)
+	@extend $vertical-align-middle
+	@extend $justify-center
 
 .logo-container img
 	max-width 100%
@@ -14,10 +14,10 @@
 
 //menu
 .menu
-	col(9)
+	@extend $col-9
 	display flex
-	vertical-align(middle)
-	justify(right)
+	@extend $vertical-align-middle
+	@extend $justify-right
 
 .menu ul
 	list-style none
@@ -41,19 +41,22 @@
 
 @media screen and (max-width 480px)
 	.logo-container
-		col(12)
+		mq-col(12)
+
 	.menu
-		col(12)
+		mq-col(12)
 		padding 0
 		margin 0
+
 	.menu ul
+		mq-col(12)
 		margin 0 auto
 		display block
-		col(12)
 
 	.menu li
+		mq-col(12)
 		text-align center
-		col(12)
 		margin-top 5px
+
 	.menu ul li a
-		col(12)
+		mq-col(12)
